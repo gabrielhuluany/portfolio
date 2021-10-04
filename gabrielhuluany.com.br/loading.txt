@@ -1,0 +1,29 @@
+<title>Loading...</title>
+
+.c {
+    display:none
+}
+
+.l {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: s 2s linear infinite;
+    margin: 0 auto;
+}
+
+div {
+    display: block;
+}
+
+@keyframes s
+0% {
+    transform: rotate(0);
+}
+100% {
+    transform: rotate(360deg);
+}
+
+<div class="l"></div>
